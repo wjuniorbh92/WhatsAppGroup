@@ -70,7 +70,7 @@ class EnterInGroup:
 
 print("Enter the link as in the example")
 print('Just type the value after the value from chat.whatsapp.com/')
-print("Example: GpYYl4uNUWmBuCr5sipj9k'")
+print("Example: GpYYl4uNUWmBuCr5sipj9k")
 group_link = "https://chat.whatsapp.com/" + \
     input("")
 
@@ -78,7 +78,7 @@ whatsappbot = EnterInGroup(group_link)
 
 whatsappbot.login()
 
-YouPass = False
-while YouPass == False:
-    YouPass = whatsappbot.enter_group()
+EnterGroup = False
+while EnterGroup == False:
+    EnterGroup = whatsappbot.enter_group()
     sleep(240)
